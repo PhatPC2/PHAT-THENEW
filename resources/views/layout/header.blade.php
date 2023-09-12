@@ -8,11 +8,11 @@
       <li><a href="#">Contact us</a></li>
       @if(isset($user_login))
        <li><a href="">{{$user_login->name}}</a></li>
-       <li><a href="dangxuat">Logout</a></li>
+       <li><a href="/dangxuat">Logout</a></li>
 
        @else
-      <li><a href="dangnhap">Login</a></li>
-      <li><a href="dangki">Sigup</a></li>
+      <li><a href="/dangnhap">Login</a></li>
+      <li><a href="/dangki">Sigup</a></li>
       
       @endif
     </ul>
